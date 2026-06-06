@@ -20,8 +20,8 @@ export function AppShell({ title, subtitle, userName, userEmail, children }: Rea
             <p className="mt-2 max-w-2xl text-sm text-slate-400">{subtitle}</p>
           </div>
           <div className="flex flex-wrap items-center gap-3">
-            <Badge tone="success">AI Assisted</Badge>
-            <Badge tone="warning">Dark Mode</Badge>
+            {/* <Badge tone="success">AI Assisted</Badge>
+            <Badge tone="warning">Dark Mode</Badge> */}
             <form action="/api/auth/logout" method="post">
               <Button type="submit" variant="secondary" size="sm">
                 Sign out
